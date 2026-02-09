@@ -1,7 +1,7 @@
-const ninjaBizAPI = 'http://13.57.17.135/biz'
-import { 
-  FETCH_CURRENTBIZMENU_SUCCESS,
-  FETCH_CURRENTBIZMENU_FAIL
+const ninjaBizAPI = 'http://localhost:8080/biz'
+import {
+    FETCH_CURRENTBIZMENU_FAIL,
+    FETCH_CURRENTBIZMENU_SUCCESS
 } from './types'
 
 // fetchCurrentBizMenu function will GET request ninjaBizAPI for JSON objects of biz

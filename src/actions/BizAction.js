@@ -1,4 +1,4 @@
-const ninjaBizAPI = 'http://13.57.17.135/biz'
+const ninjaBizAPI = 'http://localhost:8080/biz'
 import { 
   FETCH_BIZ_SUCCESS,
   FETCH_BIZ_FAIL,
